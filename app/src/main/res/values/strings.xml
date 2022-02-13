@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JokesApp</string>
+    <string name="phJokeSetup">Joke Setup: </string>
+    <string name="strJokeText">Joke Text</string>
+    <string name="phDelivery">Delivery: </string>
+    <string name="strDelivery">Delivery</string>
+    <string name="strJoke">Joke</string>
+    <string name="JokeCategory">Joke Category:</string>
+    <string name="JokeType">Joke Type:</string>
+    <string name="AppOpened">No of time app opening</string>
+    <string name="jokingApp">Joking App</string>
+</resources>

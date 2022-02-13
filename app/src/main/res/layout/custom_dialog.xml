@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/JokeSetup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/marginNormal"
+            android:layout_marginTop="@dimen/marginLarge"
+            android:text="@string/phJokeSetup"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/smile" />
+
+        <TextView
+            android:id="@+id/txtJokeSetup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/marginNormal"
+            android:layout_marginTop="@dimen/marginSmall"
+            android:text="@string/strJokeText"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:lineSpacingExtra="8sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/JokeSetup" />
+
+        <TextView
+            android:id="@+id/delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/marginNormal"
+            android:layout_marginTop="@dimen/marginSmall"
+            android:text="@string/phDelivery"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtJokeSetup" />
+
+        <TextView
+            android:id="@+id/txtJokeDelivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/marginNormal"
+            android:layout_marginTop="@dimen/marginSmall"
+            android:lineSpacingExtra="8sp"
+            android:paddingBottom="@dimen/marginLarge"
+            android:text="@string/strDelivery"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/delivery" />
+
+        <ImageView
+            android:id="@+id/smile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginNormal"
+            android:src="@drawable/ic_baseline_tag_faces_100"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+        </ImageView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

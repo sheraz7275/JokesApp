@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/splashFragment2">
+
+    <fragment
+        android:id="@+id/jokesListFragment"
+        android:name="com.example.jokesapp.ui.jokeList.JokesListFragment"
+        android:label="fragment_jokes_list"
+        tools:layout="@layout/fragment_jokes_list" />
+    <fragment
+        android:id="@+id/splashFragment2"
+        android:name="com.example.jokesapp.ui.splashScreen.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment2_to_jokesListFragment"
+            app:destination="@id/jokesListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popUpTo="@id/splashFragment2"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
