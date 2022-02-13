@@ -2,7 +2,7 @@
 
 #This app Implement a public REST API that provides random jokes with different category  
 
-# Concept include in this application
+# Tech Stack in this application
 * Single activity based modern Android architecture
 * MVVM architecture With combination of repository pattern
 * Rest API implementation
