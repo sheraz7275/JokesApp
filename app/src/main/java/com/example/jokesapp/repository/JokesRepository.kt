@@ -23,7 +23,7 @@ class JokesRepository @Inject constructor(private val restApi: RestApi) {
 
         } catch (exe: Exception) {
             status.value = ApiStatus.Error.toString()
-            throw exe
+
         }
     }
 }
